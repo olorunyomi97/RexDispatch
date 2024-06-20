@@ -1,0 +1,33 @@
+.signin {
+    background: white;
+    max-height: 100%;
+}
+.forgot_password {
+    justify-content: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    text-align: right;
+    color: #0BE05C;
+    
+}
+@media only screen and (max-width: 1300px) {
+    .signin{
+        padding-right: 7px;
+        overflow-x: hidden;
+    }
+    .phone_signin {
+        margin-bottom: 250px;
+    }
+    
+}
+@media only screen and (max-width: 600px) {
+    .signin{
+        /* padding-left: 0px; */
+        padding-right: 0px;
+        overflow-x: hidden;
+    }
+    
+}

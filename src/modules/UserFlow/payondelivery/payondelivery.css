@@ -1,0 +1,105 @@
+.delivery_body {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 30px;
+}
+.delivery_card{
+    background: rgba(233, 244, 255, 0.5);
+    border: 1px solid #E9F4FF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.delivery_text{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 51px;
+    align-items: center;
+    text-align: center;
+    color: #00114E;
+    
+}
+.delivery_subtext{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #00114E;
+}
+.payment_madeby {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    color: #000000;
+}
+/* checkbox styling */
+.sender_checkbox {
+    text-align: left;
+    
+}
+.sender {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #818181;
+    text-align: left;
+}
+
+.delivery_message {
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #494949;
+  text-align: left;
+}
+/* cancel request modal css */
+.cancel_request {
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+  color: #000000;  
+}
+.cancel_reason{
+  font-family: Circular Std;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: left;
+  color: #1F1F1F;
+}
+.textarea_input {
+  background: #ebeeef;
+  /* opacity: 0.2; */
+  border-radius: 5px;
+  border: none;
+}
+
+.form-check-input:checked {
+  background-color: #0BE05C !important;
+  border-color: #0BE05C !important;
+}
+
+.form-check-input[type=radio] {
+  border-radius: 50%;
+  padding: 5px;
+  
+}

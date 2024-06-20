@@ -1,0 +1,323 @@
+.offer_jumbotron {
+    background: #00114E;
+}
+.offer_row {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.offer_title{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 53px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.offer_subtext {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.offers_body {
+    background: #F9F9F9;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.alloffers_card {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.gig_img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    text-align: left;
+}
+.alloffer_text {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* padding-right: 5px; */
+}
+.alloffer_subtext {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+}
+.alloffer_subtext:hover {
+    text-decoration: none;
+}
+
+.star_style{
+    padding-left: 10px;
+    text-align: left;
+}
+.rating_style{
+    /* padding-left: 10px; */
+    text-align: left;
+}
+.rating_star{
+    text-align: left;
+}
+.rating_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #A0A0A0;
+}
+.offer_card_item{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    color: #A0A0A0;
+    
+}
+.offer_price {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: left;
+    color: #000000;
+}
+.offer_button {
+    border: #0BE05C;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    background: #0BE05C;
+    border-radius: 20px;
+}
+.offer_button:hover {
+    text-decoration: none;
+    color: white;   
+}
+.alloffer_button {
+    text-align: left;
+}
+.filter_card{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.offers_filter {
+    padding: 20px;
+    text-align: left;
+}
+.filter_header{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+}
+.filter_text{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;
+}
+.filter_button{
+    background: #0BE05C;
+    border: #0BE05C;
+    border-radius: 5px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.filter_button:hover{
+    color: white;
+    text-decoration: none;
+}
+.logistics_info{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: left;
+    color: #818181;
+}
+.logistics_info_text{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: left;
+    color: #000000;    
+}
+.logistics_hr {
+    border: 1px  rgba(0, 0, 0, 0.1);
+}
+/* proceed modal css */
+.proceed_title {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #494949;  
+    padding-top: 20px;
+    padding-bottom: 10px; 
+    text-align: left;
+}
+
+.proceed_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #494949;
+    text-align: left;
+}
+.proceed_span{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #0BE05C;
+    text-align: left;
+}
+/* payment modal css */
+.paystack_email {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    color: #122933;
+    
+}
+.paystack_amount{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    color: #4EAF67;
+    
+}
+.payment_tab {
+    border: 1px solid rgba(149, 149, 149, 0.5);
+    box-sizing: border-box;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #959595;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+    border: 1px solid rgba(149, 149, 149, 0.5);
+    box-sizing: border-box;
+    border-radius: inherit;
+}
+.nav-link:hover {
+    color: #fff;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: #000000;
+}
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #000000;
+    text-decoration: none;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    font-size: 12px;
+}
+.payon_delivery{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #0BE05C;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.modal-pop {
+    max-width: 600px;
+    margin: auto;
+    overflow-y: hidden;
+}
+.range {
+    /* display: none; */
+    position: absolute;
+    z-index: 1;
+    cursor: grab;
+    user-select: none;
+    touch-action: none;
+    height: 2px;
+    width: 42px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(170 170 170) 0px 2px 6px;
+    transform: translate(127.654px, -18.5px);
+}
+
+@media only screen and (max-width: 600px) {
+    .alloffer_text {
+        padding-left: 20px;
+    }  
+    .gig_img {
+        padding-left: 20px;
+    }
+}

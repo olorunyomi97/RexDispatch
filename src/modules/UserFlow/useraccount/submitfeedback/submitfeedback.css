@@ -1,0 +1,49 @@
+.feedback_text{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+.feedback_subtext{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 149.6%;
+    text-align: center;
+    color: #4B545A;
+}
+.feedback_card {
+    background: #F0F8FF;
+    border: 1px solid #DADADA;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.feedback_gig {
+    text-align: left;
+    margin-left: 20px ;
+}
+.feedback_item{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    text-align: left;
+}
+.feedback_subitem{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A0A0A0;    
+    text-align: left;
+}
+.feedback_stars{
+    text-align: center;
+}

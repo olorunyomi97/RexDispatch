@@ -1,0 +1,20 @@
+.profile_title{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 25px;
+    color: #000000;
+    text-align: left;
+}
+.profile_input{
+    padding-bottom: 13px;
+    padding-top: 13px;
+    border: 1.4px solid #BBBED7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    
+}
+.profile{
+    margin-bottom: 100px;
+}

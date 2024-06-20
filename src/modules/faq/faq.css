@@ -1,0 +1,108 @@
+.faq_jumbotron {
+    background: #00114E;
+}
+.faq_row {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.faq_title{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 53px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.faq_subtext {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.faq_body{
+    background:white;
+    padding-top: 70px
+}
+.faq_body_text {
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 32px;
+    color: #323232;
+    text-align: left;
+    
+}
+.active, .faq_accordion:hover {
+    background-color: white;
+}
+  
+.accordion_item {
+    background: #FFFFFF;
+    border-color:#FFFFFF;
+    outline: #FFFFFF;
+   
+}
+
+.faq_accordion_header {
+    background-color: #FFFFFF;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.faq_accordion_button {
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    
+}
+.faq_accordion_text {
+    text-align: left;
+}
+.faq_accordion_button:focus {
+z-index: 3;
+border: none;
+outline: 0;
+}
+.faq_accordion_button:first-child {
+    outline:  white;
+    border:  white;
+}
+ 
+.faq_accordion_button:not(.collapsed) {
+    color: white;
+    background-color: white;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.faq_accordion_text{
+    background-color: white;
+}
+.faq_accordion_body {
+    background-color: #FFFFFF;
+}
+.accordion-flush .accordion_item {
+    border: none;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    box-shadow: 0px 4px 24px rgb(0 0 0 / 5%);
+    border-radius: 3px;
+}

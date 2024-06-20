@@ -1,0 +1,96 @@
+.business_account_nav{
+    display: flex;
+}
+.business_tab_link:active {
+    color: #0BE05C;
+}
+.business_tab_link{
+    display: block;
+    padding: .5rem 1rem;
+    /* color: #A1A1A1; */
+    color: #000000;
+    text-decoration: none;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    padding-left: 0px;
+}
+/* .business_tab_link_active{
+    display: block;
+    padding: .5rem 1rem;
+    color: #000000;
+    text-decoration: none;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    padding-left: 0px;
+} */
+/* .business_tab_link:active{
+    color: red !important;
+    text-decoration: none;
+} */
+.business_tab_link:hover{
+    color: #0BE05C;
+    text-decoration: none;
+}
+.wallet_hr{
+    border: 1px rgba(0, 0, 0, 0.1);
+}
+.business_wallet_card{
+    background: #FFFFFF;
+    border: 1px solid #0BE05C;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.mini_wallet_card{
+    background: #FFFFFF;
+    border: 1px solid #A665FB;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.business_wallet_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: #A0A0A0;
+    text-align: left;
+}
+.business_wallet_subtext {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+    color: #000000;
+    text-align: left;
+}   
+.mini_wallet_card1{
+    background: #FFFFFF;
+    border: 1px solid #00114E;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.mini_wallet_card2{
+    background: #FFFFFF;
+    border: 1px solid #FC5C65;
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 1024px) {
+    .hide {
+        display: none;
+    }
+    
+}

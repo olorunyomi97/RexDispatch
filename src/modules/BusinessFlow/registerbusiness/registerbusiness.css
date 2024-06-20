@@ -1,0 +1,107 @@
+.verification {
+    background: white;
+}
+.register_link {
+    color: #0BE05C;
+}
+.modal_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 33px;
+    /* display: flex; */
+    align-items: center;
+    color: #000000;
+    text-align: center;
+    
+}
+.modal_subtext{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #494949;
+}
+.modal_subtext{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #1F1F1F;
+}
+.modal_minitext{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    text-align: center;
+    color: #0BE05C;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.modal_input{
+    border: 2px solid #0BE05C;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.license_info{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #818181;
+    
+}
+.otp{
+    justify-content: left;
+    text-align: left;
+}
+.otp_input{
+    text-align: left;
+    justify-content: left;
+}
+.business_choice {
+    padding-bottom: 13px;
+    padding-top: 13px;
+    border: 1.4px solid #BBBED7;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color:  #767676;
+}
+.file{
+    padding-left: 20px;
+}
+.form-control[type=file]:not(:disabled):not([readonly]) {
+    cursor: pointer;
+}
+input[type="file" i] {
+    appearance: none;
+    background-color: initial;
+    cursor: default;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .verification{
+        padding-right: 7px;
+        overflow-x: hidden;
+    }
+    .phone_login {
+        margin-bottom: 30px;
+    }
+    .phone_otp {
+        padding-left: 50px;
+    }
+}
+/* @media only screen and (max-width: 736px) {
+    .plus_otp {
+        padding-left: 15px;
+    }
+} */

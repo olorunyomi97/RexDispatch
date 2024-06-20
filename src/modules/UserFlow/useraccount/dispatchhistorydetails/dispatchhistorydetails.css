@@ -1,0 +1,37 @@
+.dispatch_history_details_text{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #818181;
+    text-align: left;
+}
+.dispatch_history_details_subtext{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-align: left;
+}
+.dispatch_history_details_item{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    /* color: #0BE05C; */
+    text-align: left;
+    text-transform: capitalize;
+}
+.dispatch_history_header{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0BE05C;
+    text-align: left;
+}

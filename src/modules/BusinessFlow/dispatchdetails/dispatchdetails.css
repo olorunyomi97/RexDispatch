@@ -1,0 +1,103 @@
+.dispatch_details{
+    background: #F9F9F9;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+.dispatch_details_row{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.make_bid_btn {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    background: #0BE05C;
+    border-radius: 3px;
+}
+.make_bid_btn:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #0BE05C;
+}
+.bid_btn {
+    text-align: right;
+}
+.dispatch_details_card{
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+.dispatch_details_title {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    color: #000000;
+    padding-top: 20px;
+}
+.details_header{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #0BE05C;
+    text-align: left;
+    padding-top: 10px;
+}
+.dispatch_details_hr{
+    /* opacity: 0.5; */
+    border: 1px solid #C4C4C4;
+}
+.dispatch_details_text{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #818181;
+    text-align: left;
+}
+.dispatch_details_item{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    text-align: left;
+}
+.dispatch_input_title{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+    text-align: left;
+}
+.bid_modal_title{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 30px;
+    align-items: center;
+    color: #000000;
+}
+
+.modal{
+    
+}

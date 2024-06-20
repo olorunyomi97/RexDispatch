@@ -1,0 +1,18 @@
+body {
+  overflow-x: hidden;
+  text-align: center;
+  background: rgba(11, 224, 92, 0.1);
+  margin-right: 0px;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'Circular Std';
+  src: local('Circular Std'),url(./fonts/CircularStd-Book.ttf) format('truetype');
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+}

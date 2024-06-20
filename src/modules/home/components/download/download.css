@@ -1,0 +1,30 @@
+.download {
+    /* background: rgba(11, 224, 92, 0.1); */
+    border-radius: 10px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.download_header {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #021433;
+    /* background: rgba(0, 151, 19, 0.1); */
+}
+.download_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #021433;
+}

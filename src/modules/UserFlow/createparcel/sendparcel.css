@@ -1,0 +1,117 @@
+.parcel {
+    background-color: white;
+    overflow-x: hidden;
+}
+.my_account{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #00114E;
+}
+.my_account:hover {
+    text-decoration: none;
+    color: #00114E;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 22px;
+    /* display: flex; */
+    align-items: center;
+}
+.pick_up {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    color: #0BE05C;
+    
+}
+.back{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.my_account_bell {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00114E;
+}
+.bell {
+    text-align: right;
+}
+.react-tel-input .form-control {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	height: 3rem !important;
+	position: relative;
+	letter-spacing: .01rem;
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+	width: 100% !important;
+    font-size: 0.9rem !important;
+    border: 1.4px solid #BBBED7;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+  .flag-dropdown {
+    border: none;
+    background-color:white !important;
+}
+.google_input {
+    /* display: none;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 2px 8px;
+    -webkit-overflow-scrolling: touch;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .parcel{
+        padding-right: 7px;
+    }
+    .register_navbar{
+        display: none;
+    }
+    .parcel_sidebar {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1370px) {
+    .parcel{
+        /* display: none; */
+    }
+}

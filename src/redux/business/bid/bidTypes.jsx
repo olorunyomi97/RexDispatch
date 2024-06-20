@@ -1,0 +1,5 @@
+export const CREATE_BID_SUCCESS = "CREATE_BID_SUCCESS";
+export const CREATE_BID_FAIL = "CREATE_BID_FAIL";
+
+export const SET_MESSAGE = "SET_MESSAGE";
+export const CLEAR_MESSAGE = "CLEAR_MESSAGE";

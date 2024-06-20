@@ -1,0 +1,76 @@
+.footer {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #00114E;
+}
+.footer_content {
+    justify-content: center;
+}
+.footer_logo{
+    text-align: left;
+}
+
+.footer_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #8C97AC;
+    text-align: left;
+}
+.footer_list {
+    list-style-type: none;
+    text-align: left;
+    padding-left: 50px;
+}
+.footer_list_header{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #8C97AC;
+}
+.footer_list_text{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 42px;
+    color: #E9F7FE;
+}
+.footer_list_contact{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #E9F7FE;
+}
+.footer_contact{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #0BE05C;
+    
+}
+.footer_hr {
+    margin-top: 50px;
+    border: 1px solid #313D55;
+}
+.footer_item {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 28px;
+    color: #8C97AC;
+    text-align: left;
+}
+.footer_icons{
+    color: white;
+    text-align: right;
+}

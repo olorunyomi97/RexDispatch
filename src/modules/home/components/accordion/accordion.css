@@ -1,0 +1,111 @@
+.faq {
+    background: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.faq_header{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color: #000000;
+}
+.faq_card {
+    background: #F6FCFF;
+    border-top: 7px solid #0BE05C;
+    border-radius: 5px;
+}
+.faq_hr {
+    border: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion_landing {
+    background-color: #F6FCFF;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  .accordion_header {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-bottom: -10px;
+  }
+  .accordion_text{
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    text-align: left;
+    align-items: left;
+    color: #3E3E3E;
+  }
+  
+.accordion-flush .accordion-item:first-child {
+    border: none;
+}
+  .accordion_text {
+    background-color: #F6FCFF;
+  }
+  .accordion-body{
+    background-color: #F6FCFF;
+  }
+  .accordion-button {
+    background-color: #F6FCFF;
+  }
+  .accordion-button:focus {
+    z-index: 3;
+    border: none;
+    outline: 0;
+}
+.accordion-button:first-child {
+    outline:  #F6FCFF;
+    border:  #F6FCFF;
+}
+  .accordion-item {
+    background: #F6FCFF;
+    border-color:#F6FCFF;
+    outline: #F6FCFF;
+}
+.accordion-button:not(.collapsed) {
+    color: #F6FCFF;
+    background-color: #F6FCFF;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.accordion-flush .accordion-item .accordion-button {
+    border-radius: 0;
+    padding-right: 50px;
+}
+.accordion-flush{
+    border: none;
+    outline: none;
+}
+.accordion-flush:first-child {
+    border: none;
+    outline: none;
+}
+
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #F6FCFF;
+  }
+  

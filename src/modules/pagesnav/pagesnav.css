@@ -1,0 +1,88 @@
+.account_jumbotron {
+    background: #00114E;
+}
+.account_rex{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.account_rex:hover{
+    text-decoration: none;
+    color: white;  
+}
+
+.account_menu {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    color: white;
+    text-decoration: none;
+    
+}
+.account_menu:hover {
+    text-decoration: none;
+    color: white;
+}
+.account_me {
+    color: white;
+}
+.account_me:hover {
+    color: white;
+    text-decoration: none;
+}
+.my_account_section {
+    background: #F9F9F9;
+}
+.account_row {
+    padding-top: 80px;
+    padding-bottom: 150px;
+}
+.account_header{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 53px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;    
+}
+/* .account_flex {
+    flex-direction: column;
+} */
+/* .account_card {
+    position: relative;
+    margin-top: -10vh;
+
+} */
+.my_card {
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;    
+}
+.my_card:first-child{
+    border: none;
+}
+
+.dropdown-toggle-nav::after {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+    color: white;
+}

@@ -1,0 +1,42 @@
+.notification{
+    margin-bottom: 100px;
+}
+.notification_text{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* display: flex; */
+    align-items: center;
+    color: #000000;
+    text-align: left;
+}
+.notification_time{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #767676;
+    text-align: left;
+}
+.notification_hr{
+    width: 90%;
+    margin-top: 20px;
+    /* margin-right: 65px;
+    margin-left: 45px; */
+    border: 1px rgba(0, 0, 0, 0.1);
+}
+.notification_unread {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.6);
+    
+}

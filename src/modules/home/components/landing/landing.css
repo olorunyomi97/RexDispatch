@@ -1,0 +1,226 @@
+.landing{
+    
+}
+.landing_text {
+    padding-top: 50px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    color: #00114E;
+    text-align: left;
+}
+.landing_text_2{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    color: #00114E;
+    text-align: left;
+}
+.landing_subtext {
+    /* font-family: 'Inter', sans-serif; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.landing_logo{
+    text-align: left;
+    list-style-type: none;
+}
+
+.image_phone{
+    text-align: left;
+}
+.landing_body {
+    background: white;
+    padding-bottom: 120px;
+}
+.landing_body_text {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 31px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: 0.363158px;
+    color: #000000;
+    
+}
+.landing_body_subtext {
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.193158px;
+    color: #323232;
+}
+.landing_headers {
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+}
+.landing_headers_subtext{
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 34px;
+    text-align: center;
+    color: #323232;
+}
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #FC5C65;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+/* .dot_border {
+    border: 3px solid #FC5C65;
+    background: #FC5C65;
+    mix-blend-mode: normal;
+    opacity: 0.06;
+} */
+.dot_1 {
+    height: 10px;
+    width: 10px;
+    background-color: #50E3C2;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+  .dot_2 {
+    height: 10px;
+    width: 10px;
+    background-color: #A665FB;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.landing_flex {
+    flex-direction: column;
+}
+.phone_flex {
+    position: relative;
+    margin-top: -8vh;
+}
+
+.landing_blue {
+    background-color: #00114E;
+}
+.blue_text {
+    margin-top: 80px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    color: #FFFFFF;
+    letter-spacing: -0.253158px;
+}
+.blue_subtext {
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #FFFFFF;
+}
+.blue_item {
+    text-align: left;
+    margin-bottom: 50px;
+}
+.blue_minitext {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.blue_item_text {
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.get_started_blue {
+    background: #0BE05C;
+    border: #0BE05C;
+    border-radius: 5px;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    display: inline-flex;
+    text-align: center;
+    color: #FFFFFF;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+}
+.get_started_blue:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.circle-icon {
+    background: #0BE05C;
+    padding:10px;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 600px) {
+    .image_phone {
+        display: none;
+    }
+    .landing_logo {
+        padding-bottom: 30px;
+    }
+    .phone_logo {
+        margin-left: 50px;
+    }
+}
+@media only screen and (max-width: 1040px) {
+    
+    .landing_logo {
+        padding-bottom: 30px;
+    }
+    .phone_logo {
+        margin-left: 50px;
+    }
+}
+

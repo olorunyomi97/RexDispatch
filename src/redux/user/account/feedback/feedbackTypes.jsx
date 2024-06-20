@@ -1,0 +1,5 @@
+export const FEEDBACK_SUCCESS = "FEEDBACK_SUCCESS";
+export const FEEDBACK_FAIL = "FEEDBACK_FAIL";
+
+export const SET_MESSAGE = "SET_MESSAGE";
+export const CLEAR_MESSAGE = "CLEAR_MESSAGE";

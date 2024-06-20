@@ -1,0 +1,184 @@
+.user_account_jumbotron {
+    background: #00114E;
+}
+.user_flex{
+    flex-direction: column;
+}
+.user_account_row {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.user_account_title{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 53px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;    
+}
+.user_account_subtext {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.account_card{
+    background: #FFFFFF;
+    border-radius: 10px 10px 0px 0px;
+    position: relative;
+    margin-top: -95px;
+    margin-bottom: 150px;
+}
+.wallet_table{
+    margin-bottom: 70px;
+}
+.account_body {
+    background: #F9F9F9;
+    padding-top: 20px;
+}
+.tab_link_active{
+    color: #000000;
+    display: block;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+}
+.tab_link_active:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.tab_link {
+    display: block;
+    padding: .5rem 1rem;
+    color: #A1A1A1;;
+    text-decoration: none;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+}
+.tab_link:hover{
+    color: #0BE05C;
+    text-decoration: none;
+}
+.wallet_hr{
+    border: 1px rgba(0, 0, 0, 0.1);
+}
+.wallet_card{
+    background: #FFFFFF;
+    border: 1px solid #0BE05C;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-bottom: 80px;
+}
+.available_balance {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A0A0A0;  
+}
+.wallet_balance {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000; 
+}
+.wallet_subtext{
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    color: #1F1F1F;
+}
+.recent_text{
+    text-align: left;
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #A0A0A0;
+}
+.transaction_table {
+    background: #FFFFFF;
+    border: 1px solid #E2E2EA;
+    border-radius: 20px;
+}
+.table_head {
+    background: #F0F2F4;
+    border-radius: 20px 20px 0px 0px;
+}
+.table_title {
+    text-align: left;
+}
+.table_body {
+    text-align: left;
+}
+.table_item {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    align-items: center;
+    color: #A1A1A1;
+    
+}
+.table_item2 {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 23px;
+    color: #000000;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    background: #F9FAFB;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    background: #F0F2F4;
+    /* border-radius: 20px 20px 0px 0px; */
+    border-top: 1px solid #F9FAFB;
+}
+.table>:not(:last-child)>:last-child>* {
+    border-bottom-color: #F0F2F4;
+}
+.credit{
+    color: #0BE05C;
+}
+.debit {
+    color: #FD3538;
+}
+
+@media only screen and (max-width: 600px) {
+    .user_account{
+        overflow-x: hidden;
+    }
+}

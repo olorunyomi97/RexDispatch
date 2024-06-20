@@ -1,0 +1,14 @@
+.dispatch_link {
+    color: #0BE05C;
+}
+.dispatch_link:hover {
+text-decoration: none;
+color: black;
+}
+.dispatch_link2 {
+    color: black;
+}
+.dispatch_link2:hover {
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,92 @@
+.logistics {
+    background-color: #FFFFFF;
+    padding-bottom: 120px;
+    padding-top: 50px;
+}
+.logistics_header {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 46px;
+    display: flex;
+    justify-content: right;
+    color: #000000;
+    text-align: left;
+    /* float: right; */
+    
+}
+.carousel_bg {
+    background: #FFFFFF;
+}
+.card_bg {
+    background-color: #FFFFFF;
+}
+.card_bg:first-child{
+    border-radius: 5px;
+    border: none;
+}
+
+.card_text {
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.1px;
+    color: #000000;
+}
+
+.card_owner{
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #323232;
+    text-align: left;
+    /* padding-left: 50px; */
+}
+.card_ownername {
+    /* font-family: Inter; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #323232;
+    text-align: left;
+    /* padding-left: 50px; */
+}
+.card_img {
+    text-align: right;
+}
+.card_quote {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+.controls-top {
+    text-align: right;
+    margin-top: -50px;
+    padding-bottom: 20px;
+    padding-top:0px
+}
+.carousel-item {
+    background: #FFFFFF;
+}
+@media only screen and (max-width: 600px) {
+    .hide {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .hide {
+        display: none;
+    }
+    .hider {
+        display: none;
+    }
+}

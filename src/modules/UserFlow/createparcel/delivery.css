@@ -1,0 +1,31 @@
+.delivery {
+    background: white;
+}
+.input_title_2 {
+    font-family: Circular Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #0BE05C;
+    padding-top: 20px;
+    
+}
+@media only screen and (max-width: 600px) {
+    .delivery{
+        padding-right: 7px;
+        overflow-x: hidden;
+    }
+    .register_navbar{
+        display: none;
+    }
+    .delivery_sidebar {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1370px) {
+    .delivery{
+        max-height: 100%;
+    }
+}
